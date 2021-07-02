@@ -1,0 +1,247 @@
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: gray;
+}
+main .row 
+{margin-bottom: 10px;
+    font-size:20px;
+}
+
+header, main, footer {
+    background-color: white;border: 1px solid #c0c0c0;
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: left;
+}
+main {background-color: white;
+
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        height: 80vh;
+    }
+}
+    @media screen and (min-width: 980px) {
+        main {
+            height: 60vh;
+        }
+    }
+
+
+    #imagem{
+        padding-left: -20px;
+        width: 160px;
+        height: 200px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+    }
+
+
+
+
+    *{
+        font-family: arial;
+    }
+    
+    form input{
+        border-color: black;
+        background-color: #D3D3D3;
+    }
+    
+    @media screen and (max-width: 434px){
+        input, button{
+            margin-bottom: 5px;
+        }
+    
+    }
+    
+    
+    form input:hover{
+        background-color: lightblue;
+        color:white;
+    }
+    
+    
+    .container-fluid{
+    background-color: grey;
+    height: 100%;
+    }
+    
+    .row{
+        background-color:white;
+    }
+    
+    
+    .col-sm-3{
+        background-color: white;
+    
+    }
+    
+.col-sm-4{
+    
+    margin-left:5px;
+    padding-left: 1px;
+}
+
+
+    .col-sm-6{
+    background-color: white;
+    border:solid;
+    border:2px;
+    border-color:grey;
+    
+    /*border-color:black;
+    float:center;
+    border-radius: 110px;
+    */
+ 
+    }
+    
+    
+    @media screen and (max-width:767px) {
+        .col-sm-6{
+            margin-left:1%;
+            }
+        }
+
+    .col-sm-12{
+        padding:5%;
+    /*margin-bottom: 25%;*/
+    }
+
+
+@media screen and (min-width:992px){
+    .col-sm-12,.col-sm-6{
+        margin-bottom:10%;
+    }
+}
+
+
+
+
+
+/*Botões que fazem calculos, login, ou criação de perfil*/
+#botões_ação{
+    font-size: 80%;
+}
+
+    
+
+/*Botões cinza na parte central da tela no about_App.html*/
+#botões_escolha{
+    background-color:#D3D3D3;
+    border-radius: 20px;
+    border-color:black;
+    margin-bottom: 10px;
+}
+
+#botões_escolha:hover{
+    background-color: white;
+    color:lightskyblue;
+}
+
+
+/*tabela de lista de exercícios*/
+tr,td,th{
+    border:solid;
+    border-color:black;
+    text-align: left;
+
+}
+
+
+
+/*Botões Verdes na parte inferior da tela*/
+    .row-cols-lg-auto{
+
+background-color:#D3D3D3;
+border:solid;
+border-color:black;    
+margin-top:20%;
+}
+
+
+    #botões_footer{
+        font-style:bold;
+        border-color:black;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+
+        background-color:greenyellow;
+        font-size: 50%;
+
+        padding-left: 0;
+    }
+
+    #botões_footer:hover{
+        font-style: bold;
+        background-color: white;
+        color:blue;
+    }
+    
+    
+    @media screen  and (max-width: 700px) {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
